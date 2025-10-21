@@ -1,0 +1,35 @@
+/* UNIVERSAL SELECTOR IN THE SIMPLE SELeCTORS */
+
+*{
+    margin:0;
+
+    padding: 0;
+
+
+}
+
+
+
+/* Descent selector in the COMBINATOR SELECTORS */
+.selector p,h1{
+    border: 2px dotted black;
+text-align: center;
+padding: 20px;
+
+      
+
+}
+
+/* PSEUDO-CLASS SELECTOR */
+
+.selector h1:hover::first-letter{
+    color: rgb(33, 139, 139);
+
+} 
+
+ 
+
+
+
+
+
